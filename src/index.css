@@ -86,6 +86,23 @@ nav a:hover {
 	color:#83a83d;
 }
 
+#coco-link:hover {
+	color:#9DADC4;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-appear {
+  opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+
 /* Responsive Home Styles */
 
 @media (max-width: 1170px) {
@@ -94,6 +111,11 @@ nav a:hover {
 	}
 	#projects {
     padding-right: 0px;
+	}
+}
+@media (min-width: 1170px) {
+	#home-body {
+    margin-left: 11.5%;
 	}
 }
 

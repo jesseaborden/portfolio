@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import {Link} from 'react-router'
 import Navbar from './Navbar.js';
 
 class Home extends Component {
   render() {
     return (
+      <ReactCSSTransitionGroup
+      transitionName="example"
+      transitionAppear={true}
+      transitionAppearTimeout={5000}
+      transitionEnter={false}
+      transitionLeave={false}>
       <div className="container" id="home">
         <Navbar />
         <div className="row">
@@ -19,6 +26,7 @@ class Home extends Component {
           </div>
         </div>
       </div>
+      </ReactCSSTransitionGroup>
     );
   }
 }
