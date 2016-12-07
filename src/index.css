@@ -4,12 +4,14 @@ body {
 	color:#404040;
 }
 
-
-
 /* Nav */
 
 ul {
-	list-style: none;
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 0px;
+    float: right;
+    padding: 0px;
 }
 
 li {
@@ -20,12 +22,15 @@ li {
 nav {
 	margin-top: 57px;
 	margin-bottom: 57px;
+	height:78px;
 	font-family: 'Karla', sans-serif;
 }
 
 nav h1 {
-	margin:0px;
-	font-size: 18px;
+    margin: 0px;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 nav a {
@@ -57,7 +62,7 @@ nav a:hover {
 
 #about-jesse {
     padding-right: 350px;
-    margin-bottom: 45px;
+    margin-bottom: 55px;
 }
 
 #projects a {
@@ -75,4 +80,57 @@ nav a:hover {
 
 #typedash-link:hover {
 	color:#f3a536;
+}
+
+#pol-link:hover {
+	color:#83a83d;
+}
+
+/* Responsive Home Styles */
+
+@media (max-width: 1170px) {
+	#about-jesse {
+    padding-right: 0px;
+	}
+	#projects {
+    padding-right: 0px;
+	}
+}
+
+/* Project Styles */
+
+.project-description h1 {
+	font-family: 'Karla', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+
+}
+
+.project-description p {
+	font-family: 'Karla', sans-serif;
+	line-height: 44px;
+	font-size: 28px;
+	font-weight: normal;
+
+}
+
+.code-description {
+	margin-top:300px;
+	margin-bottom:300px;
+}
+
+.code-description p {
+	font-size:24px;
+	font-family: Karla;
+	line-height: 38px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.feature-row {
+	width: 100%;
+}
+
+.feature-row img {
+    width: 100%;
 }

@@ -8,13 +8,13 @@ class Home extends Component {
       <div className="container" id="home">
         <Navbar />
         <div className="row">
-          <div className="col-lg-10 col-lg-offset-1" id="home-body"> 
-            <p id="about-jesse">I'm Jesse and I'm a full-stack developer based in Los Angeles</p>
+          <div className="col-lg-10 col-lg-offset-1 col-md-11 col-md-offset-1 col-sm-12" id="home-body"> 
+            <p id="about-jesse">I'm Jesse and I'm a full-stack developer based in Los Angeles.</p>
             <p id="projects">Recent Projects: <br />
               <Link to="/typedash" id="teachin-link">Teach.in</Link>,&nbsp; 
               <Link to="/typedash" id="typedash-link">Typedash</Link>, &nbsp;
-              <Link to="/typedash">Coco</Link>,&nbsp; 
-              <Link to="/typedash">POL</Link>
+              <Link to="/typedash" id="coco-link">Coco</Link>,&nbsp; 
+              <Link to="/typedash" id="pol-link">POL</Link>
             </p>
           </div>
         </div>
