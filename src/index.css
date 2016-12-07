@@ -1,1 +1,78 @@
+/* General */
 
+body {
+	color:#404040;
+}
+
+
+
+/* Nav */
+
+ul {
+	list-style: none;
+}
+
+li {
+	font-size: 13px;
+	line-height: 26px;
+}
+
+nav {
+	margin-top: 57px;
+	margin-bottom: 57px;
+	font-family: 'Karla', sans-serif;
+}
+
+nav h1 {
+	margin:0px;
+	font-size: 18px;
+}
+
+nav a {
+    color: #404040;
+    border-bottom: 1px solid #279CF2;
+    padding-bottom: 3px;
+    text-decoration: none !important;
+}
+
+nav a:hover {
+	border-color: #C9573C;
+}
+
+/* Home */
+
+#home-body p {
+	font-family: 'Karla', sans-serif;
+	font-weight: bold;
+	font-size:58px;
+	line-height: 68px;
+}
+
+#home-body a {
+	color:#404040;
+	text-decoration: none;
+	border-bottom: 2px solid #D8D8D8;
+	height: 60px;
+}
+
+#about-jesse {
+    padding-right: 350px;
+    margin-bottom: 45px;
+}
+
+#projects a {
+    display: inline-block;
+    font-weight: normal;
+}
+
+#projects {
+    padding-right: 200px;
+}
+
+#teachin-link:hover {
+	color:#7525FB;
+}
+
+#typedash-link:hover {
+	color:#f3a536;
+}
