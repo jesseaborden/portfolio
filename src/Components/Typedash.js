@@ -1,18 +1,21 @@
 import React from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+import TypeDash from '../../public/assets/TypedashHero@2x.png';
+import ProjectImage from '../../public/assets/Project_Screenshots@2x.png'
 import Navbar from './Navbar.js';
+import Footer from './Footer.js';
 
 const Typedash = () => (
 	<div>
+		<div className="container-fluid nav">
+			<Navbar />
+		</div>
 		<ReactCSSTransitionGroup
 	      transitionName="example"
 	      transitionAppear={true}
-	      transitionAppearTimeout={5000}
+	      transitionAppearTimeout={500}
 	      transitionEnter={false}
 	      transitionLeave={false}>
-			<div className="container">
-				<Navbar />
-			</div>
 			<div className="container">
 				<div className="project-row row">
 					<div className="project-description col-lg-6">
@@ -23,13 +26,13 @@ const Typedash = () => (
 							the app's front-end and marketing site. 
 						</p>
 					</div>
-					<div className="project-image col-lg-6">
-						<img src='https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Kong33promo.jpg/280px-Kong33promo.jpg' role="presentation"/>
+					<div className="project-image col-lg-5 col-lg-offset-1">
+						<img src={TypeDash} role="presentation"/>
 					</div>
 				</div>
 			</div>
 			<div className="feature-row row">
-				<img src='https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Kong33promo.jpg/280px-Kong33promo.jpg' role="presentation"/>
+				<img src={ProjectImage} role="presentation"/>
 			</div>
 			<div className="container-fluid">
 				<div className="code-row row">
@@ -39,10 +42,11 @@ const Typedash = () => (
 						and something else.</p>
 					</div>
 					<div className="project-image col-lg-6">
-						<img src='https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Kong33promo.jpg/280px-Kong33promo.jpg' role="presentation"/>
+						<img src={ProjectImage} role="presentation"/>
 					</div>
 				</div>
 			</div>
+			<Footer />
 			</ReactCSSTransitionGroup>
 	</div>
 )
