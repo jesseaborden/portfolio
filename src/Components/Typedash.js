@@ -46,7 +46,7 @@ const Typedash = () => (
 					</div>
 				</div>
 			</div>
-			<Footer next={'/'} previous={'/teachin'}/>
+			<Footer next={'/coco'} previous={'/teachin'}/>
 			</ReactCSSTransitionGroup>
 	</div>
 )

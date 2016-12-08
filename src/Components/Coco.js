@@ -2,11 +2,11 @@ import React from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import teachinHero from '../../public/assets/Teachinhero@2x.png';
 import ProjectImage from '../../public/assets/Project_Screenshots@2x.png';
-import TeachinCode from '../../public/assets/teachinCode.png'
+import CocoCode from '../../public/assets/cocoCode.png'
 import Navbar from './Navbar.js';
 import Footer from './Footer.js';
 
-const Teachin = () => (
+const Coco = () => (
 	<div>
 		<div className="container-fluid nav">
 			<Navbar />
@@ -44,13 +44,13 @@ const Teachin = () => (
 						</p>
 					</div>
 					<div className="code-image col-lg-6">
-						<img src={TeachinCode} role="presentation"/>
+						<img src={CocoCode} role="presentation"/>
 					</div>
 				</div>
 			</div>
-			<Footer next={'/typedash'} previous={'/'} />
+			<Footer next={'/pol'} previous={'/typedash'} />
 			</ReactCSSTransitionGroup>
 	</div>
 )
 
-export default Teachin;
+export default Coco;
