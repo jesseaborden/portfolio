@@ -22,7 +22,7 @@ class Home extends Component {
               <p id="about-jesse">I'm Jesse and I'm a full-stack developer based in Los Angeles.</p>
               <p id="projects">Recent Projects: <br />
                 <span id="home-links">
-                  <Link to="/typedash" id="teachin-link">Teach.in</Link>,&nbsp; 
+                  <Link to="/teachin" id="teachin-link">Teach.in</Link>,&nbsp; 
                   <Link to="/typedash" id="typedash-link">Typedash</Link>, &nbsp;
                   <Link to="/typedash" id="coco-link">Coco</Link>,&nbsp; 
                   <Link to="/typedash" id="pol-link">POL</Link>&nbsp;
