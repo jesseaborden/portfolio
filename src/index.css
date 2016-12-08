@@ -150,7 +150,7 @@ nav a:hover {
 	#home-body p {
     font-family: 'Karla', sans-serif;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 36px;
     line-height: 50px;
 	}
 	#home-body a {
@@ -290,8 +290,12 @@ footer {
 }
 
 @media (max-width: 600px) {
-	.project-link {
-		margin-left: 30px;
-		margin-right: 30px;
+	.next-link {
+		margin-right: 15px;
+		margin-left:5px;
 	}
+	.previous-link {
+		margin-left: 15px;
+		margin-right:5px;
+}
 }
