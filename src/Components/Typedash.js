@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import TypeDash from '../../public/assets/TypedashHero@2x.png';
-import ProjectImage from '../../public/assets/Project_Screenshots@2x.png'
+import ProjectImage from '../../public/assets/Project_Screenshots@2x.png';
+import TypedashCode from '../../public/assets/typedashCode.png'
 import Navbar from './Navbar.js';
 import Footer from './Footer.js';
 
@@ -18,7 +19,7 @@ const Typedash = () => (
 	      transitionLeave={false}>
 			<div className="container">
 				<div className="project-row row">
-					<div className="project-description col-lg-6">
+					<div className="project-description col-lg-6 col-md-7 col-sm-9">
 						<h1>Typedash</h1>
 						<p>
 							Typedash is a chrome extension that allows users to make notes, read news, jump to social
@@ -26,7 +27,7 @@ const Typedash = () => (
 							the app's front-end and marketing site. 
 						</p>
 					</div>
-					<div className="project-image col-lg-5 col-lg-offset-1">
+					<div className="project-image col-lg-5 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-3">
 						<img src={TypeDash} role="presentation"/>
 					</div>
 				</div>
@@ -37,12 +38,11 @@ const Typedash = () => (
 			<div className="container-fluid">
 				<div className="code-row row">
 					<div className="code-description col-lg-5 col-lg-offset-1">
-						<p>Teach.in is an education management platform I built with two friends of mine. 
-						My role was database management and frontend. Our stack was React, SQL, Javascript,
-						and something else.</p>
+						<p>I used HTML, CSS and Javascript/jQuery to create Typedash's front-end.
+						</p>
 					</div>
-					<div className="project-image col-lg-6">
-						<img src={ProjectImage} role="presentation"/>
+					<div className="code-image col-lg-6">
+						<img src={TypedashCode} role="presentation"/>
 					</div>
 				</div>
 			</div>
