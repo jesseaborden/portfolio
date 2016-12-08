@@ -162,9 +162,16 @@ nav a:hover {
 	#projects {
     padding-right: 0px;
 	}
+	#home-body {
+		padding-left: 50px; 
+	}
 }
 
 @media (max-width: 600px) {
+	#home-body {
+		padding-right: 15px;
+		padding-left: 15px; 
+	}
 	#home-body p {
     font-family: 'Karla', sans-serif;
     font-weight: bold;
@@ -279,6 +286,10 @@ nav a:hover {
 	}
 	.project-description {
 		width: 100%;
+	    max-width: 800px;
+	    margin: auto;
+	    padding-left: 65px;
+	    padding-right: 65px;
 	}
 	.project-description p {
 		font-size: 24px;
@@ -304,7 +315,7 @@ nav a:hover {
 		padding: 0px;
 	}
 	.code-description p {
-		padding:0px;
+		padding-right: 120px;
 	}
 }
 /* Footer Styles */
