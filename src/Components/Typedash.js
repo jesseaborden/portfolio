@@ -14,7 +14,7 @@ const Typedash = () => (
 		<ReactCSSTransitionGroup
 	      transitionName="example"
 	      transitionAppear={true}
-	      transitionAppearTimeout={500}
+	      transitionAppearTimeout={2000}
 	      transitionEnter={false}
 	      transitionLeave={false}>
 			<div className="container">
@@ -27,7 +27,7 @@ const Typedash = () => (
 							the app's front-end and marketing site. 
 						</p>
 					</div>
-					<div className="project-image col-lg-5 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-3">
+					<div id="typedash-A" className="project-image col-lg-5 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-3">
 						<img src={TypeDash} role="presentation"/>
 					</div>
 				</div>
