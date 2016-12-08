@@ -5,8 +5,8 @@ export default () => (
 	<nav>
 		<Link to="/" id="nav-home"> <h1>Jesse Borden</h1> </Link>
 		<ul className="desktop-nav">
-			<li><span>Github: </span><a href="https://github.com/jesseaborden"> github.com/jesseaborden </a></li>
-			<li><span>Linkedin: </span><a href="https://linkedin.com/in/jesse-borden"> linkedin.com/in/jesse-borden </a></li>
+			<li><span>Github: </span><a href="http://github.com/jesseaborden"> github.com/jesseaborden </a></li>
+			<li><span>Linkedin: </span><a href="http://linkedin.com/in/jesse-borden"> linkedin.com/in/jesse-borden </a></li>
 			<li><span>Email: </span><a href="mailto:jesseaborden@gmail.com">jesseaborden@gmail.com</a></li>
 		</ul>
 		<ul className="mobile-nav">
