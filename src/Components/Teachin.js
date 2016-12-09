@@ -38,7 +38,7 @@ const Teachin = () => (
 				<div className="code-row row">
 					<div className="code-description col-lg-6">
 						<p>
-							My role on this project was full stack and included React, Redux, CSS, Node, Express, Postgresql and Sequilize. 
+							My role on this project was full stack and included React, Redux, CSS, Node, Express, PostgreSQL and Sequilize. 
 						</p>
 					</div>
 					<div className="code-image col-lg-6">

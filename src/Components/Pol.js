@@ -22,7 +22,7 @@ const Pol = () => (
 					<div className="project-description col-lg-6 col-md-7 col-sm-9">
 						<h1>POL</h1>
 						<p>
-							At Pacific Outdoor Living I worked as the lead front-end developer which included managing and developing all of POL's extensive web properties. 
+							At Pacific Outdoor Living, I worked as the lead front-end developer which included managing and developing all of POL's extensive web properties. 
 							This included legacy projects as well as developing new websites for campaigns, microsites, and web optimization.
 						</p>
 					</div>
