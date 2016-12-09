@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-import teachinHero from '../../public/assets/Teachinhero@2x.png';
+import cocoHero from '../../public/assets/Coco_Hero@2x.png';
 import ProjectImage from '../../public/assets/Coco_Screenshots@2x.png';
 import CocoCode from '../../public/assets/cocoCode.png'
 import Navbar from './Navbar.js';
@@ -20,15 +20,15 @@ const Coco = () => (
 			<div className="container">
 				<div className="project-row row">
 					<div className="project-description col-lg-6 col-md-7 col-sm-9">
-						<h1>Tech.in</h1>
+						<h1>Coco</h1>
 						<p>
 							Teach.in is a prototype two friends and I made to help ease the adminstrative 
 							burden of educators. We are still updating it regularly and hope to get it in 
 							the hands of some mind molders shortly. 
 						</p>
 					</div>
-					<div className="project-image col-lg-5 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-3">
-						<img src={teachinHero} role="presentation"/>
+					<div id="coco-hero" className="project-image col-lg-5 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-3">
+						<img src={cocoHero} role="presentation"/>
 					</div>
 				</div>
 			</div>

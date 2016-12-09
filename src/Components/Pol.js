@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import teachinHero from '../../public/assets/Teachinhero@2x.png';
-import ProjectImage from '../../public/assets/Project_Screenshots@2x.png';
+import ProjectImage from '../../public/assets/POL_Screenshots@2x.png';
 import polCode from '../../public/assets/polCode.png'
 import Navbar from './Navbar.js';
 import Footer from './Footer.js';
@@ -20,7 +20,7 @@ const Pol = () => (
 			<div className="container">
 				<div className="project-row row">
 					<div className="project-description col-lg-6 col-md-7 col-sm-9">
-						<h1>Tech.in</h1>
+						<h1>POL</h1>
 						<p>
 							Teach.in is a prototype two friends and I made to help ease the adminstrative 
 							burden of educators. We are still updating it regularly and hope to get it in 
