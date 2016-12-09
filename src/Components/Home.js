@@ -26,7 +26,7 @@ class Home extends Component {
                   <Link to="/typedash" id="typedash-link">Typedash</Link>, &nbsp;
                   <Link to="/coco" id="coco-link">Coco</Link> 
                   <Link to="/pol" id="pol-link">POL</Link>&nbsp;
-                  <span>and this Portfolio</span>
+                  <span>and this portfolio</span>
                 </span>
               </p>
             </div>

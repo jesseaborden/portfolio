@@ -22,8 +22,8 @@ const Coco = () => (
 					<div className="project-description col-lg-6 col-md-7 col-sm-9">
 						<h1>Coco</h1>
 						<p>
-							I created a landing page for song writter Coco to showcase his records. Using full width
-							video rollovers and embeded Soundcloud players.
+							I created a landing page for songwriter Coco to showcase all of his records. I used full width
+							video rollovers and embedded Soundcloud players to create a engaging experience.
 						</p>
 					</div>
 					<div id="coco-hero" className="project-image col-lg-5 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-3">
@@ -34,11 +34,11 @@ const Coco = () => (
 			<div className="feature-row row">
 				<img src={ProjectImage} role="presentation"/>
 			</div>
-			<div className="container-fluid">
+			<div className="container">
 				<div className="code-row row">
-					<div className="code-description col-lg-5 col-lg-offset-1">
+					<div className="code-description col-lg-6">
 						<p>
-							I used HTML, CSS, Javascript and jQuery to build the site.
+							I used HTML, CSS, Javascript and jQuery to build his website.
 						</p>
 					</div>
 					<div className="code-image col-lg-6">

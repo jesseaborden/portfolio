@@ -23,7 +23,7 @@ const Typedash = () => (
 						<h1>Typedash</h1>
 						<p>
 							Typedash is a Chrome extension dashboard that allows users to make notes, 
-							jump to quick links read news and check the weather. Typedash also allows users to customize
+							jump to quick links, read news and check the weather. Typedash also allows users to customize
 							the typography and color of the dashboard.
 							
 						</p>
@@ -36,11 +36,11 @@ const Typedash = () => (
 			<div className="feature-row row">
 				<img src={ProjectImage} role="presentation"/>
 			</div>
-			<div className="container-fluid">
+			<div className="container">
 				<div className="code-row row">
-					<div className="code-description col-lg-5 col-lg-offset-1">
+					<div className="code-description col-lg-6">
 						<p> 
-							My role on this project was creating the apps front-end and marketing website.
+							My role on this project was creating the app's front-end and marketing website.
 							For this I used HTML, CSS, Javascript and jQuery. 
 						</p>
 					</div>

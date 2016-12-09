@@ -22,8 +22,8 @@ const Pol = () => (
 					<div className="project-description col-lg-6 col-md-7 col-sm-9">
 						<h1>POL</h1>
 						<p>
-							At Pacific Outdoor Living I worked as a front-end developer which included managing and developing all of POL's extensive web properties. 
-							This included legacy projects as well as developing new websites for campaigns, micro sites, and web optimization.
+							At Pacific Outdoor Living I worked as the lead front-end developer which included managing and developing all of POL's extensive web properties. 
+							This included legacy projects as well as developing new websites for campaigns, microsites, and web optimization.
 						</p>
 					</div>
 					<div className="project-image col-lg-5 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-3">
@@ -34,9 +34,9 @@ const Pol = () => (
 			<div className="feature-row row">
 				<img src={ProjectImage} role="presentation"/>
 			</div>
-			<div className="container-fluid">
+			<div className="container">
 				<div className="code-row row">
-					<div className="code-description col-lg-5 col-lg-offset-1">
+					<div className="code-description col-lg-6">
 						<p>
 							My stack here included PHP, Wordpress, HTML, CSS, and Javascript.
 						</p>
