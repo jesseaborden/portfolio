@@ -23,7 +23,7 @@ const Coco = () => (
 						<h1>Coco</h1>
 						<p>
 							I created a landing page for songwriter Coco to showcase all of his records. I used full width
-							video rollovers and embedded Soundcloud players to create a engaging experience.
+							video rollovers and embedded Soundcloud players to create an engaging experience.
 						</p>
 					</div>
 					<div id="coco-hero" className="project-image col-lg-5 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-3">
