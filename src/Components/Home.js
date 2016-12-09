@@ -24,9 +24,9 @@ class Home extends Component {
                 <span id="home-links">
                   <Link to="/teachin" id="teachin-link">Teach.in</Link>,&nbsp; 
                   <Link to="/typedash" id="typedash-link">Typedash</Link>, &nbsp;
-                  <Link to="/coco" id="coco-link">Coco</Link>,&nbsp; 
+                  <Link to="/coco" id="coco-link">Coco</Link> 
                   <Link to="/pol" id="pol-link">POL</Link>&nbsp;
-                  <span>, and Portfolio</span>
+                  <span>and this Portfolio</span>
                 </span>
               </p>
             </div>

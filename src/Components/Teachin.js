@@ -22,9 +22,8 @@ const Teachin = () => (
 					<div className="project-description col-lg-6 col-md-7 col-sm-9">
 						<h1>Teach.in</h1>
 						<p>
-							Teach.in is a prototype two friends and I made to help ease the adminstrative 
-							burden of educators. We are still updating it regularly and hope to get it in 
-							the hands of some mind molders shortly. 
+							Teach.in is an educational managment platform that two friends and I developed over
+							the course of the last few months. Teach.in will be available for Beta in early January 2017.
 						</p>
 					</div>
 					<div className="project-image col-lg-5 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-3">
@@ -39,8 +38,7 @@ const Teachin = () => (
 				<div className="code-row row">
 					<div className="code-description col-lg-6">
 						<p>
-							I was in a full stack role on Teach.in. My stack included React, Redux, Node, 
-							Express, Postgresql, and Sequilize. 
+							My role on this project was full stack and included React, Redux, CSS, Node, Express, Postgresql and Sequilize. 
 						</p>
 					</div>
 					<div className="code-image col-lg-6">

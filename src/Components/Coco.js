@@ -22,9 +22,8 @@ const Coco = () => (
 					<div className="project-description col-lg-6 col-md-7 col-sm-9">
 						<h1>Coco</h1>
 						<p>
-							Teach.in is a prototype two friends and I made to help ease the adminstrative 
-							burden of educators. We are still updating it regularly and hope to get it in 
-							the hands of some mind molders shortly. 
+							I created a landing page for song writter Coco to showcase his records. Using full width
+							video rollovers and embeded Soundcloud players.
 						</p>
 					</div>
 					<div id="coco-hero" className="project-image col-lg-5 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-3">
@@ -39,8 +38,7 @@ const Coco = () => (
 				<div className="code-row row">
 					<div className="code-description col-lg-5 col-lg-offset-1">
 						<p>
-							I was in a full stack role on Teach.in. My stack included React, Redux, Node, 
-							Express, Postgresql, and Sequilize. 
+							I used HTML, CSS, Javascript and jQuery to build the site.
 						</p>
 					</div>
 					<div className="code-image col-lg-6">
