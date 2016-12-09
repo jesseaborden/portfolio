@@ -140,6 +140,12 @@ nav a:hover {
 	color:#808080;
 }
 
+#pol-hero {
+    width: 350px;
+    bottom: -65px;
+    right: -20px;
+}
+
 .example-enter {
   opacity: 0.01;
 }

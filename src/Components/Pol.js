@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-import teachinHero from '../../public/assets/Teachinhero@2x.png';
+import polHero from '../../public/assets/POLHero@2x.png';
 import ProjectImage from '../../public/assets/POL_Screenshots@2x.png';
 import polCode from '../../public/assets/polCode.png'
 import Navbar from './Navbar.js';
@@ -28,7 +28,7 @@ const Pol = () => (
 						</p>
 					</div>
 					<div className="project-image col-lg-5 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-3">
-						<img src={teachinHero} role="presentation"/>
+						<img id="pol-hero" src={polHero} role="presentation"/>
 					</div>
 				</div>
 			</div>

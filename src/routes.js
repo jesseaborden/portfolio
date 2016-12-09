@@ -8,7 +8,7 @@ import Coco from './Components/Coco'
 import Pol from './Components/Pol'
 
 const Routes = () => (
-	<Router history={browserHistory}>
+	<Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
 		<Route path="/" component={Home} />
 		<Route path="/typedash" component={Typedash} />
 		<Route path="/teachin" component={Teachin} />
