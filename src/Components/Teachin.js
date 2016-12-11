@@ -25,6 +25,7 @@ const Teachin = () => (
 							Teach.in is an educational managment platform that two friends and I developed over
 							the course of the last few months. Teach.in will be available for Beta in early January 2017.
 						</p>
+						<a className="view-project" href="http://teachin.herokuapp.com"> View Project </a>
 					</div>
 					<div className="project-image col-lg-5 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-3">
 						<img src={teachinHero} role="presentation"/>

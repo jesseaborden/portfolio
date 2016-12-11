@@ -213,6 +213,15 @@ nav a:hover {
 
 }
 
+.view-project {
+	display: inline-block;
+	margin-top: 25px !important;
+}
+
+.view-project:hover {
+	color:#7A7A7A;
+}
+
 .project-image {
     position: relative;
     float: none;
@@ -340,16 +349,16 @@ footer {
 	height:115px;
 }
 
-.project-link {
+.project-link, .view-project {
     font-family: Karla;
     font-size: 20px;
     line-height: 23px;
-    color: #7A7A7A !important;
+    color: #7A7A7A;
     margin-top: 50px;
     text-decoration: none !important;
 }
 
-.project-link:hover {
+.project-link:hover, .view-project {
 	color: #404040;
     border-bottom: 1px solid #279CF2;
     padding-bottom: 3px;

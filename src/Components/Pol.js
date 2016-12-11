@@ -25,6 +25,7 @@ const Pol = () => (
 							At Pacific Outdoor Living, I worked as the lead front-end developer which included managing and developing all of POL's extensive web properties. 
 							This included legacy projects as well as developing new websites for campaigns, microsites, and web optimization.
 						</p>
+						<a className="view-project" href="http://pacificoutdoorliving.com"> View Project </a>
 					</div>
 					<div className="project-image col-lg-5 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-3">
 						<img id="pol-hero" src={polHero} role="presentation"/>
