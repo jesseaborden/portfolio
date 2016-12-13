@@ -384,3 +384,20 @@ footer {
 		margin-right:5px;
 }
 }
+
+@media (max-width: 600px) {
+	.next-link {
+		margin-right: 15px;
+		margin-left:5px;
+	}
+	.previous-link {
+		margin-left: 15px;
+		margin-right:5px;
+}
+}
+
+@media (max-width: 414px) {
+	footer {
+		display: none;
+	}
+}
