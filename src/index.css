@@ -34,7 +34,7 @@ li {
 
 nav {
 	margin-top: 57px;
-	margin-bottom: 57px;
+	margin-bottom: 5%;
 	height:78px;
 	font-family: 'Karla', sans-serif;
 }
@@ -394,10 +394,4 @@ footer {
 		margin-left: 15px;
 		margin-right:5px;
 }
-}
-
-@media (max-width: 414px) {
-	footer {
-		display: none;
-	}
 }
