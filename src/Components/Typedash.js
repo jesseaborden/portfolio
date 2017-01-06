@@ -27,6 +27,7 @@ const Typedash = () => (
 							the typography and color of the dashboard.
 							
 						</p>
+						<a className="view-project" href="http://typedash.io/"> View Project </a>
 					</div>
 					<div id="typedash-A" className="project-image col-lg-5 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-3">
 						<img src={TypeDash} role="presentation"/>
