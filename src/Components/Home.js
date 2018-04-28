@@ -19,7 +19,7 @@ class Home extends Component {
         transitionLeave={false}>
           <div className="row">
             <div className="col-lg-10 col-lg-offset-1 col-md-11 col-md-offset-1 col-sm-12" id="home-body">
-              <p id="about-jesse">I'm Jesse and I'm a full-stack developer based in San Francisco.</p>
+              <p id="about-jesse">I'm Jesse and I am front-end developer based in San Francisco.</p>
               <p id="projects">Recent Projects: <br />
                 <span id="home-links">
                   <Link to="/teachin" id="teachin-link">Teach.in</Link>,&nbsp;
