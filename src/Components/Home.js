@@ -18,13 +18,13 @@ class Home extends Component {
         transitionEnter={false}
         transitionLeave={false}>
           <div className="row">
-            <div className="col-lg-10 col-lg-offset-1 col-md-11 col-md-offset-1 col-sm-12" id="home-body"> 
-              <p id="about-jesse">I'm Jesse and I'm a full-stack developer based in Sunnyvale.</p>
+            <div className="col-lg-10 col-lg-offset-1 col-md-11 col-md-offset-1 col-sm-12" id="home-body">
+              <p id="about-jesse">I'm Jesse and I'm a full-stack developer based in San Francisco.</p>
               <p id="projects">Recent Projects: <br />
                 <span id="home-links">
-                  <Link to="/teachin" id="teachin-link">Teach.in</Link>,&nbsp; 
+                  <Link to="/teachin" id="teachin-link">Teach.in</Link>,&nbsp;
                   <Link to="/typedash" id="typedash-link">Typedash</Link>, &nbsp;
-                  <Link to="/coco" id="coco-link">Coco</Link>,&nbsp; 
+                  <Link to="/coco" id="coco-link">Coco</Link>,&nbsp;
                   <Link to="/pol" id="pol-link">POL</Link>&nbsp;
                   <span>and this portfolio</span>
                 </span>
